@@ -17,8 +17,21 @@ Dưới đây là **10 mẹo Terraform** giúp tăng hiệu suất và giảm th
 
 ---
 
-## 1️⃣ Dùng `terraform fmt` để định dạng code
+## 1. Dùng `terraform fmt` để định dạng code
 Mỗi khi viết Terraform, định dạng có thể bị lộn xộn. Dùng lệnh này để format code chuẩn:
 ```sh
 terraform fmt
 
+Mẹo: Cài đặt pre-commit hook để tự động chạy `terraform fmt` trước khi commit.
+
+## 2. Sử dụng Variables để tăng tính linh hoạt
+Thay vì hardcode giá trị, hãy sử dụng variables:
+```sh
+variable "instance_type" {
+  default = "t3.micro"
+}
+resource "aws_instance" "example" {
+  instance_type = var.instance_type
+}
+
+Mẹo: Dùng file `terraform.tfvars` để dễ quản lý values.

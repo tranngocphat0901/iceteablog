@@ -1,55 +1,36 @@
 ---
-author: Hugo Authors
-title: Math Typesetting
-date: 2019-03-08
-description: A brief guide to setup KaTeX
-math: true
-ShowBreadCrumbs: false
+author: ["Hugo Authors", "PaperMod Contributors"]
+title: "Rich Content and Shortcodes"
+date: "2019-03-10"
+description: "A brief description of Hugo Shortcodes"
+tags: ["markdown", "shortcodes", "privacy"]
+ShowToc: true
 ---
 
-Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
+Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes) for rich content, along with a [Privacy Config](https://gohugo.io/about/hugo-and-gdpr/) and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
 
 <!--more-->
 
-In this example we will be using [KaTeX](https://katex.org/)
+---
 
--   Create a partial under `/layouts/partials/math.html`
--   Within this partial reference the [Auto-render Extension](https://katex.org/docs/autorender.html) or host these scripts locally.
--   Include the partial in your templates ([`extend_head.html`](../papermod/papermod-faq/#custom-head--footer)) like so:
--   refer [ISSUE #236](https://github.com/adityatelange/hugo-PaperMod/issues/236)
+## Figure Shortcode ([PaperMod enhanced](https://github.com/adityatelange/hugo-PaperMod/commits/master/layouts/shortcodes/figure.html))
 
-```bash
-{{ if or .Params.math .Site.Params.math }}
-{{ partial "math.html" . }}
-{{ end }}
-```
+{{< figure src="https://source.unsplash.com/Z0lL0okYjy0" attr="Photo by [Aditya Telange](https://unsplash.com/@adityatelange?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/Z0lL0okYjy0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)" align=center link="https://unsplash.com/photos/Z0lL0okYjy0" target="_blank" >}}
 
--   To enable KaTex globally set the parameter `math` to `true` in a project's configuration
--   To enable KaTex on a per page basis include the parameter `math: true` in content files
+---
 
-**Note:** Use the online reference of [Supported TeX Functions](https://katex.org/docs/supported.html)
+## YouTube
 
-{{< math.inline >}}
-{{ if or .Page.Params.math .Site.Params.math }}
+{{< youtube hjD9jTi_DQ4 >}}
 
-<!-- KaTeX -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-{{ end }}
-{{</ math.inline >}}
+---
 
-### Examples
+## Twitter Shortcode
 
-{{< math.inline >}}
+{{< twitter user="adityatelange" id="1724414854348357922" >}}
 
-<p>
-Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
-</p>
-{{</ math.inline >}}
+---
 
-Block math:
+## Vimeo Shortcode
 
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
+{{< vimeo 152985022 >}}
