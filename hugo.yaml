@@ -1,0 +1,24 @@
+baseURL: https://liyi.dev/
+languageCode: en-us
+title: Ice Tea DevOps
+theme: PaperMod
+params:
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  defaultTheme: auto  # dark/light mode
+  homeInfoParams:
+    Title: "Chào mừng đến với blog DevOps"
+    Content: "Chia sẻ kiến thức về DevOps, Cloud, Terraform, Kubernetes..."
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 2

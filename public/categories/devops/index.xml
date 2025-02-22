@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DevOps on Ice Tea DevOps</title>
+    <link>http://localhost:1313/categories/devops/</link>
+    <description>Recent content in DevOps on Ice Tea DevOps</description>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Feb 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform Cheat Sheet: 10 Mẹo Hay Không Ai Chỉ Bạn</title>
+      <link>http://localhost:1313/posts/second/</link>
+      <pubDate>Sat, 22 Feb 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/second/</guid>
+      <description>Những mẹo Terraform giúp bạn làm việc hiệu quả hơn.</description>
+    </item>
+  </channel>
+</rss>
