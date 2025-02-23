@@ -6,6 +6,12 @@ tags: ["Terraform", "DevOps", "Cloud"]
 categories: ["Infrastructure as Code", "DevOps"]
 author: "Patrick Tran"
 summary: "Những mẹo Terraform giúp bạn làm việc hiệu quả hơn và tránh các lỗi phổ biến."
+cover:
+  image: "/images/terraform-cheatsheet.jpg"  # Image path
+  alt: "Terraform Cheat Sheet Cover Image"  # Alternative text if the image fails to load
+  caption: "Latest Terraform Guide"  # Caption below the image (optional)
+  relative: true  # If true, the image is located in the static/ directory
+  hidden: false  # If true, the image will not be displayed in the post, only on the post list
 ---
 
 ## Giới Thiệu
