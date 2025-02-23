@@ -18,7 +18,7 @@ params:
   ShowPostCover: true
   ShowReadingTime: true
   ShowShareButtons: true
-  ShareButtons: ["facebook", "linkedin", "github"]
+  ShareButtons: ["facebook", "linkedin", "reddit"]
   ShowToc: true
   ShowBreadCrumbs: trueßß
   defaultTheme: auto  # dark/light mode
@@ -28,6 +28,13 @@ params:
   homeInfoParams:
     Title: "Chào mừng đến với blog DevOps"
     Content: "Chia sẻ kiến thức về DevOps, Cloud, Terraform, Kubernetes..."
+  socialIcons:
+    - name: "facebook"
+      url: "https://facebook.com/"
+    - name: "linkedin"
+      url: "https://linkedin.com/"
+    - name: "github"
+      url: "https://github.com/"
 
 menu:
   main:
@@ -56,10 +63,3 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
-socialIcons:
-  - name: "facebook"
-    url: "https://www.facebook.com/"
-  - name: "linkedin"
-    url: "https://www.linkedin.com/"
-  - name: "github"
-    url: "https://github.com/"
