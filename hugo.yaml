@@ -34,11 +34,19 @@ menu:
       name: Blog
       url: /posts/
       weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
     - identifier: archives
       name: Archives
       url: /archives/
-      weight: 20
+      weight: 30
     - identifier: about
       name: About
       url: /about/
-      weight: 30
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
