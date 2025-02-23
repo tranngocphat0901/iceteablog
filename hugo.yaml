@@ -9,6 +9,10 @@ minify:
 
 
 params:
+  contact:
+    email: tranngocphat0901@gmail.com
+    phone: +84392949809
+  subtitle: Ice Tea DevOps - Giải Nhiệt Hệ Thống, Tối Ưu Triển Khai
   env: production
   author: "Patrick Tran"
   ShowPostCover: true
