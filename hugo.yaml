@@ -1,7 +1,6 @@
 baseURL: https://liyi.dev/
 languageCode: en-us
 title: Ice Tea DevOps
-paginate: 5
 theme: PaperMod
 
 minify:
