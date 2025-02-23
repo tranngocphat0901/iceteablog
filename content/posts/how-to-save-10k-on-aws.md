@@ -5,7 +5,13 @@ draft: false
 tags: ["AWS", "Cost Optimization", "Cloud"]
 categories: ["Cloud Architecture", "DevOps"]
 author: "Patrick Tran"
-summary: "Chia sẻ câu chuyện thực tế về cách giảm \$10,000/tháng tiền AWS thông qua tối ưu tài nguyên, giám sát chi phí và thay đổi văn hóa sử dụng."
+summary: "Chia sẻ câu chuyện thực tế về cách giảm $10,000/tháng tiền AWS thông qua tối ưu tài nguyên, giám sát chi phí và thay đổi văn hóa sử dụng."
+cover:
+  image: "/images/how-to-save-10k-on-aws.png"  # Image path
+  alt: "Saving 10k USD on AWS Cover Image"  # Alternative text if the image fails to load
+  caption: "How to saving cost on AWS Cloud"  # Caption below the image (optional)
+  relative: true  # If true, the image is located in the static/ directory
+  hidden: false  # If true, the image will not be displayed in the post, only on the post list
 ---
 
 ## Giới Thiệu

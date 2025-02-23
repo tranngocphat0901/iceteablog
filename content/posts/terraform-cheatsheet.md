@@ -7,7 +7,7 @@ categories: ["Infrastructure as Code", "DevOps"]
 author: "Patrick Tran"
 summary: "Những mẹo Terraform giúp bạn làm việc hiệu quả hơn và tránh các lỗi phổ biến."
 cover:
-  image: "/images/terraform-cheatsheet.jpg"  # Image path
+  image: "/images/terraform-cheatsheet.png"  # Image path
   alt: "Terraform Cheat Sheet Cover Image"  # Alternative text if the image fails to load
   caption: "Latest Terraform Guide"  # Caption below the image (optional)
   relative: true  # If true, the image is located in the static/ directory
