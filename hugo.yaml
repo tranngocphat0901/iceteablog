@@ -33,8 +33,12 @@ menu:
     - identifier: blog
       name: Blog
       url: /posts/
-      weight: 1
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
     - identifier: about
       name: About
       url: /about/
-      weight: 2
+      weight: 30
