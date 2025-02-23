@@ -1,8 +1,17 @@
 baseURL: https://liyi.dev/
 languageCode: en-us
 title: Ice Tea DevOps
+paginate: 5
 theme: PaperMod
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+
 params:
+  env: production
+  author: "Patrick Tran"
   ShowPostCover: true
   ShowReadingTime: true
   ShowShareButtons: true
