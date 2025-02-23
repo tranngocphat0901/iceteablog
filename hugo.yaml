@@ -8,6 +8,9 @@ params:
   ShowToc: true
   ShowBreadCrumbs: true
   defaultTheme: auto  # dark/light mode
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: true
   homeInfoParams:
     Title: "Chào mừng đến với blog DevOps"
     Content: "Chia sẻ kiến thức về DevOps, Cloud, Terraform, Kubernetes..."
