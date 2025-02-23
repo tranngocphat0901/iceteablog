@@ -68,7 +68,7 @@ Locking bảo vệ bạn khỏi các tình huống như hai người cùng chạ
 ## 5\. Tận dụng **Local Values** để tổ chức logic
 
 Các biến local (local values) trong Terraform hoạt động tương tự biến tạm trong code, cho phép bạn gán một giá trị trung gian để tái sử dụng nhiều lần. Ví dụ:
-```sh
+```bash
 locals {
   common_tags = {
     project     = "my-sample-app"
@@ -89,7 +89,7 @@ Nhờ `local.common_tags`, bạn không phải lặp lại cùng một danh sác
 ## 6\. Dùng **Data Sources** để linh hoạt khi tra cứu tài nguyên
 
 **Data Sources** trong Terraform cho phép bạn lấy thông tin của tài nguyên ngoài, vốn đã tồn tại, để dùng trong cấu hình của mình. Ví dụ: Bạn có sẵn VPC hoặc subnet được tạo bởi một nhóm khác, hoặc được tạo thủ công từ trước; bạn có thể sử dụng data source để tham chiếu đến tài nguyên này mà không cần tạo lại.
-```sh
+```bash
 data "aws_vpc" "selected" {
   filter {
     name   = "tag:Name"
