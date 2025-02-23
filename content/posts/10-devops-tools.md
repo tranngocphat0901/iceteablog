@@ -103,11 +103,11 @@ Dưới đây là **10 công cụ DevOps hàng đầu** giúp bạn làm việc 
 
 ### 🔹 Tại sao nên dùng GitHub Actions?
 
-*   **Tích hợp trực tiếp với GitHub**.
+*   Tích hợp trực tiếp với GitHub.
     
-*   **Dễ sử dụng, không cần server riêng**.
+*   Dễ sử dụng, không cần server riêng.
     
-*   **Hỗ trợ nhiều hệ điều hành và ngôn ngữ**.
+*   Hỗ trợ nhiều hệ điều hành và ngôn ngữ.
     
 
 ### 🚀 Ứng dụng thực tế
@@ -123,11 +123,11 @@ Dưới đây là **10 công cụ DevOps hàng đầu** giúp bạn làm việc 
 
 ### 🔹 Tại sao nên dùng Prometheus?
 
-*   **Thu thập metric hiệu quả** từ hệ thống.
+*   Thu thập metric hiệu quả từ hệ thống.
     
-*   **Alerting thông minh**.
+*   Alerting thông minh.
     
-*   **Hỗ trợ Kubernetes, Docker**.
+*   Hỗ trợ Kubernetes, Docker.
     
 
 ### 🚀 Ứng dụng thực tế
@@ -143,9 +143,9 @@ Dưới đây là **10 công cụ DevOps hàng đầu** giúp bạn làm việc 
 
 ### 🔹 Tại sao nên dùng Grafana?
 
-*   **Hiển thị dashboard đẹp mắt**.
+*   Hiển thị dashboard đẹp mắt.
     
-*   **Hỗ trợ nhiều nguồn dữ liệu (Prometheus, Loki, ElasticSearch, MySQL)**.
+*   Hỗ trợ nhiều nguồn dữ liệu (Prometheus, Loki, ElasticSearch, MySQL).
     
 
 ### 🚀 Ứng dụng thực tế
@@ -161,11 +161,11 @@ Dưới đây là **10 công cụ DevOps hàng đầu** giúp bạn làm việc 
 
 ### 🔹 Tại sao nên dùng Ansible?
 
-*   **Tự động hóa server provisioning**.
+*   Tự động hóa server provisioning.
     
-*   **Không cần cài đặt agent**.
+*   Không cần cài đặt agent.
     
-*   **Dễ học, dễ dùng**.
+*   Dễ học, dễ dùng.
     
 
 ### 🚀 Ứng dụng thực tế
@@ -181,11 +181,11 @@ Dưới đây là **10 công cụ DevOps hàng đầu** giúp bạn làm việc 
 
 ### 🔹 Tại sao nên dùng ELK (Elasticsearch, Logstash, Kibana)?
 
-*   **Xử lý log mạnh mẽ**.
+*   Xử lý log mạnh mẽ.
     
-*   **Tìm kiếm log nhanh chóng**.
+*   Tìm kiếm log nhanh chóng.
     
-*   **Trực quan hóa dữ liệu dễ dàng**.
+*   Trực quan hóa dữ liệu dễ dàng.
     
 
 ### 🚀 Ứng dụng thực tế
@@ -201,9 +201,9 @@ Dưới đây là **10 công cụ DevOps hàng đầu** giúp bạn làm việc 
 
 ### 🔹 Tại sao nên dùng Vault?
 
-*   **Lưu trữ mật khẩu, API keys an toàn**.
+*   Lưu trữ mật khẩu, API keys an toàn.
     
-*   **Hỗ trợ nhiều backend (AWS, Kubernetes, Consul)**.
+*   Hỗ trợ nhiều backend (AWS, Kubernetes, Consul).
     
 
 ### 🚀 Ứng dụng thực tế
