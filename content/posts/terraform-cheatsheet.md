@@ -108,7 +108,6 @@ Khi dự án lớn dần, bạn sẽ không muốn một file `.tf` duy nhất c
 Đừng quên cập nhật `version` (thường thông qua Git tag hoặc lock version của module trong trường hợp bạn tải module từ registry) để tránh tình trạng “đang chạy ngon bỗng dưng ai đó update module gây xung đột”.
 
 ## 8\. **Testing** với `terraform plan` và CI/CD
--------------------------------------------
 
 Một chuỗi CI/CD tốt nên có bước kiểm thử cấu hình Terraform trước khi thực thi:
 
