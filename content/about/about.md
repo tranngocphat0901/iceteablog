@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2025-02-23T07:00:00Z
+date: 2025-02-23T00:00:00Z
 draft: false
 tags: ["About"]
 summary: "Giới thiệu về tác giả của blog liyi.dev"
