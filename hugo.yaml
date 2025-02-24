@@ -63,3 +63,7 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+markup:
+  goldmark:ß
+    renderer:
+      unsafe: true

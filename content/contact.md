@@ -18,7 +18,7 @@ date: 2025-02-22T12:00:00Z
 </form>
 
 <script>
-const apiUrl = "https://255125pygl.execute-api.ap-southeast-1.amazonaws.com/production/contact";
+const contactAPIUrl = "https://255125pygl.execute-api.ap-southeast-1.amazonaws.com/production/contact";
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault();
@@ -28,7 +28,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         message: document.getElementById("message").value
     };
 
-    fetch(apiUrl, {
+    fetch(contactAPIUrl, {
         method: "POST",
         body: JSON.stringify(formData),
         headers: { "Content-Type": "application/json" }
