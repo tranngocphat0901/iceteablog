@@ -64,6 +64,6 @@ outputs:
     - RSS
     - JSON # necessary for search
 markup:
-  goldmark:ß
+  goldmark:
     renderer:
       unsafe: true
