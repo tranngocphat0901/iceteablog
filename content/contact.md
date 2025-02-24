@@ -6,13 +6,10 @@ date: 2025-02-22T12:00:00Z
 <form id="contact-form">
     <label for="name">Họ và Tên:</label>
     <input type="text" id="name" name="name" required>
-
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
-
     <label for="message">Nội dung:</label>
     <textarea id="message" name="message" required></textarea>
-
     <button type="submit">Gửi</button>
     <p id="contact-response"></p>
 </form>
