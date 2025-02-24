@@ -4,7 +4,7 @@ date: 2025-02-23T07:00:00Z
 draft: false
 tags: ["DevOps", "Automation", "Productivity"]
 categories: ["Tools", "Best Practices"]
-author: "Admin"
+author: "Patrick Tran"
 summary: "Danh sách 10 công cụ DevOps tốt nhất giúp tối ưu hóa quy trình phát triển phần mềm, cải thiện hiệu suất và giảm thời gian triển khai."
 cover:
   image: "/images/10-devops-tools.png"  # Image path

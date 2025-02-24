@@ -50,14 +50,14 @@ menu:
       name: Archives
       url: /archives/
       weight: 30
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 40
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 40
     - identifier: search
       name: Search
       url: /search/
-      weight: 50
+      weight: 40
 outputs:
   home:
     - HTML
