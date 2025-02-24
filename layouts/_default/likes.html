@@ -1,0 +1,26 @@
+<div>
+    <button onclick="likePost('{{ .File.BaseFileName }}')">👍 Like</button>
+    <span id="like-count">0</span> Likes
+</div>
+
+<script>
+const apiUrl = "https://255125pygl.execute-api.ap-southeast-1.amazonaws.com/production/like";
+
+function likePost(postID) {
+    fetch(`${apiUrl}?post_id=${postID}`)
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById("like-count").innerText = data.likes;
+    });
+}
+
+// Load số like khi trang tải
+window.onload = function () {
+    const postID = "{{ .File.BaseFileName }}";
+    fetch(`${apiUrl}?post_id=${postID}`)
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById("like-count").innerText = data.likes || 0;
+    });
+};
+</script>
