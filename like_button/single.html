@@ -1,0 +1,48 @@
+<div id="like-section">
+    <button id="like-button" onclick="likePost('{{ .File.BaseFileName }}')">👍 Like</button>
+    <span id="like-count">0</span> Likes
+</div>
+
+<script>
+const apiUrl = "https://255125pygl.execute-api.ap-southeast-1.amazonaws.com/production/like";
+
+function likePost(postID) {
+    console.log("Gửi request Like cho bài viết:", postID);
+
+    fetch(`${apiUrl}?post_id=${postID}`)
+    .then(response => response.json()) // Chuyển response về JSON object
+    .then(data => {
+        console.log("Dữ liệu từ API:", data);
+        if (typeof data === "string") {
+            data = JSON.parse(data); // Nếu data là string JSON, parse lại thành object
+        }
+        if (data.likes !== undefined) {
+            document.getElementById("like-count").innerText = data.likes;
+        } else {ßßß
+            console.error("Dữ liệu trả về không có trường 'likes'", data);
+        }
+    })
+    .catch(error => console.error("Lỗi khi gọi API:", error));
+}
+
+// Load số like khi trang tải
+window.onload = function () {
+    const postID = "{{ .File.BaseFileName }}";
+    console.log("Tải số like cho bài viết:", postID);
+
+    fetch(`${apiUrl}?post_id=${postID}`)
+    .then(response => response.json()) // Chuyển response về JSON object
+    .then(data => {
+        console.log("Dữ liệu API khi tải trang:", data);
+        if (typeof data === "string") {
+            data = JSON.parse(data); // Nếu data là string JSON, parse lại thành object
+        }
+        if (data.likes !== undefined) {
+            document.getElementById("like-count").innerText = data.likes;
+        } else {
+            console.error("Dữ liệu trả về không có trường 'likes'", data);
+        }
+    })
+    .catch(error => console.error("Lỗi khi tải số likes:", error));
+};
+</script>
