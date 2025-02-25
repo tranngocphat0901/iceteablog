@@ -17,7 +17,7 @@ Khi các tổ chức chuyển sang đám mây, nhiều tổ chức nhận ra r�
 
 Trong bài viết này, chúng tôi sẽ khám phá **ba giai đoạn trưởng thành của đám mây**—Chấp nhận, Chuẩn hóa và Mở rộng—và cách Terraform đóng vai trò quan trọng trong việc tối ưu hóa chi tiêu đám mây ở từng giai đoạn.
 
-**Giai Đoạn 1: Chấp Nhận – Tăng Cường Hiểu Biết Và Kiểm Soát**
+## **Giai Đoạn 1: Chấp Nhận – Tăng Cường Hiểu Biết Và Kiểm Soát**
 
 Bước đầu tiên trong tối ưu hóa chi phí đám mây là **hiểu rõ dòng tiền đang được sử dụng như thế nào**. Nhiều tổ chức di chuyển lên đám mây mà không có chiến lược quản trị chi phí rõ ràng, dẫn đến **tài nguyên nhàn rỗi, sử dụng không hiệu quả hoặc cấp phát quá mức**.
 
@@ -39,7 +39,7 @@ Bước đầu tiên trong tối ưu hóa chi phí đám mây là **hiểu rõ d
 *   **Quản lý trạng thái:** Các tệp trạng thái của Terraform giúp theo dõi cơ sở hạ tầng hiện có và tránh triển khai dư thừa.
 *   **Chính sách tự động hóa chi phí:** Kết hợp Terraform với các công cụ chính sách như Open Policy Agent, Sentinel để ngăn chặn triển khai tài nguyên đắt đỏ.
 
-**Giai Đoạn 2: Chuẩn Hóa – Thực Thi Các Thực Tiễn Tốt Nhất**
+## **Giai Đoạn 2: Chuẩn Hóa – Thực Thi Các Thực Tiễn Tốt Nhất**
 
 Sau khi chấp nhận đám mây, bước tiếp theo là **chuẩn hóa hạ tầng đám mây** để ngăn chặn chi tiêu không kiểm soát. Nếu không có quy tắc rõ ràng, các tổ chức có nguy cơ **cấu hình không đồng nhất và chi tiêu không kiểm soát**.
 
@@ -59,7 +59,7 @@ Sau khi chấp nhận đám mây, bước tiếp theo là **chuẩn hóa hạ t�
 *   **Tối ưu hóa chi phí tự động:** Terraform tích hợp với các công cụ như AWS Compute Optimizer để đề xuất tài nguyên phù hợp
 *   **Cung cấp hạ tầng tự phục vụ:** Nhóm nền tảng có thể cung cấp các mô-đun Terraform được phê duyệt trước cho nhà phát triển, giúp tránh triển khai kém hiệu quả.
 
-**Giai Đoạn 3: Mở Rộng – Tự Động Hóa Tối Ưu Hóa Và Quản Trị**
+## **Giai Đoạn 3: Mở Rộng – Tự Động Hóa Tối Ưu Hóa Và Quản Trị**
 
 Khi môi trường đám mây phát triển, các tổ chức cần **tối ưu hóa chi phí liên tục** và **quản trị tự động**. Giai đoạn này tập trung vào đảm bảo chi tiêu đám mây **có thể dự đoán, tối ưu và phù hợp với mục tiêu kinh doanh**.
 
@@ -79,7 +79,7 @@ Khi môi trường đám mây phát triển, các tổ chức cần **tối ưu 
 *   **Giám sát chi phí & Tự động hóa:** Terraform tích hợp với các công cụ FinOps như Infracost, Kubecost và AWS Cost Anomaly Detection.
 *   **Khắc phục tự động:** Terraform kết hợp với AWS Lambda hoặc Azure Functions để tự động tắt tài nguyên không sử dụng dựa trên số liệu sử dụng.
 
-**Tổng Kết**
+## **Tổng Kết**
 
 Tối ưu hóa chi phí đám mây là một **quá trình liên tục**, và Terraform là một công cụ quan trọng trong mọi giai đoạn:
 
@@ -92,7 +92,7 @@ Tối ưu hóa chi phí đám mây là một **quá trình liên tục**, và Te
 
 Bằng cách sử dụng Terraform, các tổ chức có thể **loại bỏ lãng phí, kiểm soát chi phí và đảm bảo sử dụng tài nguyên hiệu quả**, dẫn đến **chi tiêu đám mây bền vững**.
 
-**Bước Tiếp Theo:**
+## **Bước Tiếp Theo:**
 
 *   **Đánh giá chiến lược chi phí đám mây hiện tại** và xác định các lỗ hổng.
     
