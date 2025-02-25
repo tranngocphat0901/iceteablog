@@ -34,10 +34,10 @@ Bước đầu tiên trong tối ưu hóa chi phí đám mây là **hiểu rõ d
 
 ### **Cách Terraform Hỗ Trợ Trong Giai Đoạn Này:**
 
-✅ **Hạ tầng như mã (IaC):** Tự động hóa cung cấp tài nguyên, giảm lỗi thủ công và triển khai tài nguyên không cần thiết.
-✅ **Định danh & Phân bổ chi phí:** Các mô-đun Terraform có thể bắt buộc gắn thẻ tài nguyên để theo dõi chi phí theo phòng ban hoặc dự án.
-✅ **Quản lý trạng thái:** Các tệp trạng thái của Terraform giúp theo dõi cơ sở hạ tầng hiện có và tránh triển khai dư thừa.
-✅ **Chính sách tự động hóa chi phí:** Kết hợp Terraform với các công cụ chính sách như Open Policy Agent, Sentinel để ngăn chặn triển khai tài nguyên đắt đỏ.
+*   **Hạ tầng như mã (IaC):** Tự động hóa cung cấp tài nguyên, giảm lỗi thủ công và triển khai tài nguyên không cần thiết.
+*   **Định danh & Phân bổ chi phí:** Các mô-đun Terraform có thể bắt buộc gắn thẻ tài nguyên để theo dõi chi phí theo phòng ban hoặc dự án.
+*   **Quản lý trạng thái:** Các tệp trạng thái của Terraform giúp theo dõi cơ sở hạ tầng hiện có và tránh triển khai dư thừa.
+*   **Chính sách tự động hóa chi phí:** Kết hợp Terraform với các công cụ chính sách như Open Policy Agent, Sentinel để ngăn chặn triển khai tài nguyên đắt đỏ.
 
 **Giai Đoạn 2: Chuẩn Hóa – Thực Thi Các Thực Tiễn Tốt Nhất**
 
@@ -54,10 +54,10 @@ Sau khi chấp nhận đám mây, bước tiếp theo là **chuẩn hóa hạ t�
 
 ### **Cách Terraform Hỗ Trợ Trong Giai Đoạn Này:**
 
-✅ **Mô-đun Terraform có thể tái sử dụng:** Các mô-đun tiêu chuẩn giúp nhóm triển khai hạ tầng tối ưu chi phí một cách nhất quán.
-✅ **Thực thi chính sách:** Terraform Sentinel và Open Policy Agent (OPA) có thể kiểm soát triển khai các loại phiên bản đắt đỏ.
-✅ **Tối ưu hóa chi phí tự động:** Terraform tích hợp với các công cụ như AWS Compute Optimizer để đề xuất tài nguyên phù hợp
-✅ **Cung cấp hạ tầng tự phục vụ:** Nhóm nền tảng có thể cung cấp các mô-đun Terraform được phê duyệt trước cho nhà phát triển, giúp tránh triển khai kém hiệu quả.
+*   **Mô-đun Terraform có thể tái sử dụng:** Các mô-đun tiêu chuẩn giúp nhóm triển khai hạ tầng tối ưu chi phí một cách nhất quán.
+*   **Thực thi chính sách:** Terraform Sentinel và Open Policy Agent (OPA) có thể kiểm soát triển khai các loại phiên bản đắt đỏ.
+*   **Tối ưu hóa chi phí tự động:** Terraform tích hợp với các công cụ như AWS Compute Optimizer để đề xuất tài nguyên phù hợp
+*   **Cung cấp hạ tầng tự phục vụ:** Nhóm nền tảng có thể cung cấp các mô-đun Terraform được phê duyệt trước cho nhà phát triển, giúp tránh triển khai kém hiệu quả.
 
 **Giai Đoạn 3: Mở Rộng – Tự Động Hóa Tối Ưu Hóa Và Quản Trị**
 
@@ -74,10 +74,10 @@ Khi môi trường đám mây phát triển, các tổ chức cần **tối ưu 
 
 ### **Cách Terraform Hỗ Trợ Trong Giai Đoạn Này:**
 
-✅ **Tự động mở rộng khối lượng công việc:** Terraform tích hợp với chính sách tự động mở rộng để điều chỉnh tài nguyên theo nhu cầu thực tế.
-✅ **Tối ưu hóa chi phí đa đám mây:** Cách tiếp cận không phụ thuộc nhà cung cấp của Terraform đảm bảo phân bổ tài nguyên hiệu quả trên AWS, Azure và GCP.
-✅ **Giám sát chi phí & Tự động hóa:** Terraform tích hợp với các công cụ FinOps như Infracost, Kubecost và AWS Cost Anomaly Detection.
-✅ **Khắc phục tự động:** Terraform kết hợp với AWS Lambda hoặc Azure Functions để tự động tắt tài nguyên không sử dụng dựa trên số liệu sử dụng.
+*   **Tự động mở rộng khối lượng công việc:** Terraform tích hợp với chính sách tự động mở rộng để điều chỉnh tài nguyên theo nhu cầu thực tế.
+*   **Tối ưu hóa chi phí đa đám mây:** Cách tiếp cận không phụ thuộc nhà cung cấp của Terraform đảm bảo phân bổ tài nguyên hiệu quả trên AWS, Azure và GCP.
+*   **Giám sát chi phí & Tự động hóa:** Terraform tích hợp với các công cụ FinOps như Infracost, Kubecost và AWS Cost Anomaly Detection.
+*   **Khắc phục tự động:** Terraform kết hợp với AWS Lambda hoặc Azure Functions để tự động tắt tài nguyên không sử dụng dựa trên số liệu sử dụng.
 
 **Tổng Kết**
 
