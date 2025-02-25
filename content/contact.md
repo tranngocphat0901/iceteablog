@@ -13,17 +13,17 @@ date: 2025-02-22T12:00:00Z
          -->
          <div class="form-item">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name"  placeholder="Mr. Smith" />
+            <input type="text" name="name" id="name"  placeholder="Mr. Patrick" />
          </div>
          <div class="form-item">
             <label for="email">Email <span class="req"></span></label>
-            <input type="text" name="email" id="email"  class="required email" placeholder="smith@company.com" />
+            <input type="text" name="email" id="email"  class="required email" placeholder="patrick@company.com" />
          </div>
          <div class="form-item">
             <label for="organization">Organization</label>
             <input type="text" name="organization" id="organization"  placeholder="Company, Inc." />
          </div>
-         {{ if in .Params.tags "contact" }}
+         <!-- {{ if in .Params.tags "contact" }} -->
          <div class="form-item">
             <label for="subject">Subject</label>
             <input type="text" name="subject" id="subject"  value="" placeholder="Need help or expertise?" />
@@ -35,12 +35,12 @@ date: 2025-02-22T12:00:00Z
             <label for="message">Message</label>
             <textarea  rows="6" name="message" id="message"  placeholder="Please add details concerning your request."></textarea>
          </div>
-         {{ else }}
+         <!-- {{ else }} -->
          <div class="form-item">
             <input type="hidden" name="subject" id="subject"  value="Your Access to Product Demo!" />
             <input type="hidden" name="target" id="target"  value="demo" />
          </div>
-         {{ end }}
+         <!-- {{ end }} -->
          <!-- uncomment the below div when enabling reCaptcha
          <div class="g-recaptcha" data-sitekey="{{.Site.Params.reCaptchaPrivateKey}}"></div>
          -->
