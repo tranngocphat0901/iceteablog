@@ -7,7 +7,7 @@ date: 2025-02-22T12:00:00Z
 <div>
    <fieldset>
       <legend>Please fill in the form to submit your request</legend>
-      <form action="https://contact-request-endpoint/" method="post">
+      <form action="https://255125pygl.execute-api.ap-southeast-1.amazonaws.com/production/contact" method="post">
          <!-- uncomment this div block when enabling reCaptcha
          <script src="https://www.google.com/recaptcha/api.js"></script>
          -->
