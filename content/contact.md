@@ -23,10 +23,6 @@ date: 2025-02-22T12:00:00Z
         <label for="message">Nội dung:</label>
         <textarea id="message" name="message" required></textarea>
     </div>
-    <!-- Google reCAPTCHA -->
-    <div class="form-group recaptcha-container">
-        <div class="g-recaptcha" data-sitekey="6Lc4UOgqAAAAAA15BsINUHWaZoUt8Tbu9rFxF4is"></div>
-    </div>
     <button type="submit">Gửi</button>
     <p id="contact-response"></p>
 </form>
@@ -88,16 +84,7 @@ button:hover {
     font-weight: bold;
     color: green;
 }
-
-/* Căn chỉnh reCAPTCHA */
-.recaptcha-container {
-    display: flex;
-    justify-content: center;
-}
 </style>
-
-<!-- Thêm script reCAPTCHA -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script>
 const contactAPIUrl = "https://255125pygl.execute-api.ap-southeast-1.amazonaws.com/production/contact";
@@ -105,18 +92,11 @@ const contactAPIUrl = "https://255125pygl.execute-api.ap-southeast-1.amazonaws.c
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    const recaptchaResponse = document.querySelector(".g-recaptcha-response").value;
-    if (!recaptchaResponse) {
-        document.getElementById("contact-response").innerText = "Vui lòng xác minh reCAPTCHA!";
-        return;
-    }
-
     const formData = {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
         subject: document.getElementById("subject").value,
-        message: document.getElementById("message").value,
-        recaptcha: recaptchaResponse  // Gửi token reCAPTCHA về server
+        message: document.getElementById("message").value
     };
 
     fetch(contactAPIUrl, {
