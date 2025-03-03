@@ -24,11 +24,17 @@ Bài viết này sẽ hướng dẫn bạn cách viết một CV DevOps chuẩn 
 Một CV DevOps chuyên nghiệp thường có các phần sau:
 
 ✅ **Thông tin cá nhân**
+
 ✅ **Tóm tắt bản thân (Professional Summary)**
+
 ✅ **Kỹ năng (Skills)**
+
 ✅ **Kinh nghiệm làm việc (Work Experience)**
+
 ✅ **Dự án thực tế (Projects)**
+
 ✅ **Chứng chỉ và khóa học (Certifications & Courses)**
+
 ✅ **Liên hệ & portfolio (Links & Contact Information)**
 
 Hãy giữ CV **ngắn gọn (1-2 trang)**, tập trung vào kỹ năng, thành tựu và số liệu cụ thể thay vì viết dài dòng không cần thiết.
@@ -99,8 +105,11 @@ Các chứng chỉ **DevOps/Cloud** uy tín sẽ giúp CV của bạn nổi bậ
 
 🔹 **Chứng chỉ nên có:**
 ✅ **AWS Certified Solutions Architect / DevOps Engineer**
+
 ✅ **Google Professional Cloud DevOps Engineer**
+
 ✅ **Certified Kubernetes Administrator (CKA)**
+
 ✅ **HashiCorp Certified Terraform Associate**
 
 📌 **Nếu chưa có chứng chỉ?** Hãy tham gia **khóa học online** và làm **lab thực tế**, sau đó cập nhật vào CV.
@@ -111,8 +120,11 @@ Các chứng chỉ **DevOps/Cloud** uy tín sẽ giúp CV của bạn nổi bậ
 Hãy đảm bảo CV có bố cục **gọn gàng, dễ đọc, không màu mè**. Một số lưu ý:
 
 ✅ Dùng **font đơn giản** (Arial, Calibri, Roboto).
+
 ✅ Màu sắc tối giản (đen, xám, xanh dương nhẹ).
+
 ✅ **Không dùng ảnh cá nhân** (nếu không bắt buộc).
+
 ✅ **Lưu file dưới dạng PDF**, tránh mất định dạng khi gửi.
 
 📌 **Mẹo:** Dùng các template CV chuyên nghiệp trên **Canva, Overleaf (LaTeX), hoặc Novoresume** để trình bày đẹp hơn.
@@ -121,12 +133,15 @@ Hãy đảm bảo CV có bố cục **gọn gàng, dễ đọc, không màu mè*
 ---------------------------------------------
 
 ❌ **Liệt kê quá nhiều công nghệ nhưng không có kinh nghiệm thực tế.**
+
 🔹 Giải pháp: Chỉ ghi những công nghệ bạn thực sự thành thạo.
 
 ❌ **Viết chung chung, không có số liệu minh chứng.**
+
 🔹 Giải pháp: Dùng **dữ liệu cụ thể** như _giảm 30% chi phí cloud, tăng tốc deploy 3 lần_.
 
 ❌ **CV dài dòng, không trọng tâm.**
+
 🔹 Giải pháp: Giữ CV trong **1-2 trang**, tập trung vào điểm mạnh nhất.
 
 **9\. Tăng cơ hội “pass job xịn” bằng LinkedIn và Portfolio**
@@ -135,7 +150,9 @@ Hãy đảm bảo CV có bố cục **gọn gàng, dễ đọc, không màu mè*
 Ngoài CV, hãy tối ưu **LinkedIn** để tăng cơ hội được tuyển dụng:
 
 ✅ Cập nhật **title chuyên nghiệp**: _"DevOps Engineer | AWS | Kubernetes | CI/CD Automation"_
+
 ✅ Viết **About** ngắn gọn, tập trung vào kỹ năng và thành tựu.
+
 ✅ Tham gia cộng đồng DevOps trên **LinkedIn, Twitter, GitHub** để mở rộng network.
 
 📌 **Mẹo:** Nếu có blog viết về DevOps hoặc các dự án open-source, hãy thêm vào CV để tạo ấn tượng mạnh.
@@ -145,9 +162,13 @@ Ngoài CV, hãy tối ưu **LinkedIn** để tăng cơ hội được tuyển d�
 
 Một CV DevOps chuyên nghiệp cần:
 🚀 **Tóm tắt bản thân rõ ràng, có số liệu cụ thể.**
+
 🚀 **Nhấn mạnh kỹ năng DevOps quan trọng.**
+
 🚀 **Liệt kê kinh nghiệm làm việc với thành tựu đo lường được.**
+
 🚀 **Đưa dự án cá nhân hoặc open-source để thể hiện năng lực.**
+
 🚀 **Có chứng chỉ cloud hoặc DevOps uy tín.**
 
 Nếu bạn áp dụng đúng hướng dẫn này, CV của bạn chắc chắn sẽ nổi bật và giúp bạn pass job DevOps với mức lương xứng đáng.
