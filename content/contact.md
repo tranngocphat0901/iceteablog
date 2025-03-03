@@ -16,10 +16,6 @@ date: 2025-02-22T12:00:00Z
         <input type="email" id="email" name="email" required>
     </div>
     <div class="form-group">
-        <label for="organization">Tổ chức (Tùy chọn):</label>
-        <input type="text" id="organization" name="organization">
-    </div>
-    <div class="form-group">
         <label for="subject">Chủ đề:</label>
         <input type="text" id="subject" name="subject" required>
     </div>
@@ -27,76 +23,33 @@ date: 2025-02-22T12:00:00Z
         <label for="message">Nội dung:</label>
         <textarea id="message" name="message" required></textarea>
     </div>
+    <!-- Thêm Google reCAPTCHA -->
+    <div class="g-recaptcha" data-sitekey="6Lc4UOgqAAAAAA15BsINUHWaZoUt8Tbu9rFxF4is"></div>
     <button type="submit">Gửi</button>
     <p id="contact-response"></p>
 </form>
 
-<style>
-#contact-form {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background: #f9f9f9;
-    font-family: Arial, sans-serif;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-}
-
-label {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-textarea {
-    height: 100px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background: #007bff;
-    color: white;
-    font-size: 16px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #0056b3;
-}
-
-#contact-response {
-    margin-top: 10px;
-    font-weight: bold;
-}
-</style>
+<!-- Thêm script reCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script>
 const contactAPIUrl = "https://255125pygl.execute-api.ap-southeast-1.amazonaws.com/production/contact";
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault();
-    
+
+    const recaptchaResponse = document.querySelector(".g-recaptcha-response").value;
+    if (!recaptchaResponse) {
+        document.getElementById("contact-response").innerText = "Vui lòng xác minh reCAPTCHA!";
+        return;
+    }
+
     const formData = {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
-        organization: document.getElementById("organization").value || "",
-        subject: document.getElementById("subject").value || "",
-        message: document.getElementById("message").value
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value,
+        recaptcha: recaptchaResponse  // Gửi token reCAPTCHA về server
     };
 
     fetch(contactAPIUrl, {
