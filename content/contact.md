@@ -16,6 +16,10 @@ date: 2025-02-22T12:00:00Z
         <input type="email" id="email" name="email" required>
     </div>
     <div class="form-group">
+        <label for="organization">Tổ chức (Tùy chọn):</label>
+        <input type="text" id="organization" name="organization">
+    </div>
+    <div class="form-group">
         <label for="subject">Chủ đề:</label>
         <input type="text" id="subject" name="subject" required>
     </div>
@@ -27,11 +31,10 @@ date: 2025-02-22T12:00:00Z
     <p id="contact-response"></p>
 </form>
 
-<!-- Thêm CSS để căn chỉnh form đúng -->
 <style>
 #contact-form {
     max-width: 600px;
-    margin: 20px auto;
+    margin: auto;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -52,27 +55,24 @@ label {
 
 input, textarea {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
 }
 
 textarea {
-    height: 120px;
-    resize: vertical;
+    height: 100px;
 }
 
 button {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: none;
     background: #007bff;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 10px;
 }
 
 button:hover {
@@ -82,7 +82,6 @@ button:hover {
 #contact-response {
     margin-top: 10px;
     font-weight: bold;
-    color: green;
 }
 </style>
 
@@ -91,11 +90,12 @@ const contactAPIUrl = "https://255125pygl.execute-api.ap-southeast-1.amazonaws.c
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault();
-
+    
     const formData = {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
-        subject: document.getElementById("subject").value,
+        organization: document.getElementById("organization").value || "",
+        subject: document.getElementById("subject").value || "",
         message: document.getElementById("message").value
     };
 
