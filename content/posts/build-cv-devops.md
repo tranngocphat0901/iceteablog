@@ -19,7 +19,6 @@ Bạn là một kỹ sư DevOps hoặc đang chuyển hướng sang DevOps nhưn
 Bài viết này sẽ hướng dẫn bạn cách viết một CV DevOps chuẩn chỉnh, tập trung vào **kỹ năng, kinh nghiệm, chứng chỉ và dự án thực tế** để giúp bạn dễ dàng **pass job xịn**.
 
 **1\. Cấu trúc CV DevOps chuẩn**
---------------------------------
 
 Một CV DevOps chuyên nghiệp thường có các phần sau:
 
@@ -40,7 +39,6 @@ Một CV DevOps chuyên nghiệp thường có các phần sau:
 Hãy giữ CV **ngắn gọn (1-2 trang)**, tập trung vào kỹ năng, thành tựu và số liệu cụ thể thay vì viết dài dòng không cần thiết.
 
 **2\. Viết phần “Tóm tắt bản thân” thu hút**
---------------------------------------------
 
 Đây là phần đầu tiên nhà tuyển dụng đọc, vì vậy hãy làm nổi bật kinh nghiệm và thế mạnh của bạn trong 3-4 câu ngắn gọn.
 
@@ -49,7 +47,6 @@ Hãy giữ CV **ngắn gọn (1-2 trang)**, tập trung vào kỹ năng, thành 
 📌 **Sai lầm cần tránh:**❌ "Là một người đam mê công nghệ, thích học hỏi, luôn mong muốn phát triển bản thân." (Quá chung chung, không có thông tin cụ thể)
 
 **3\. Tập trung vào các kỹ năng quan trọng**
---------------------------------------------
 
 DevOps cần nhiều kỹ năng, nhưng đừng liệt kê quá nhiều. Hãy chọn những **kỹ năng quan trọng nhất**, phân loại rõ ràng.
 
@@ -58,7 +55,6 @@ DevOps cần nhiều kỹ năng, nhưng đừng liệt kê quá nhiều. Hãy ch
 📌 **Mẹo:** Đặt **các công nghệ phổ biến lên đầu** để CV dễ dàng được ATS (Applicant Tracking System) quét qua.
 
 **4\. Viết phần “Kinh nghiệm làm việc” ấn tượng**
--------------------------------------------------
 
 💡 **Công thức chuẩn:**📌 **\[Chức danh\] - \[Công ty\] - \[Thời gian làm việc\]**📌 **Mô tả ngắn công việc**📌 **Thành tựu kèm số liệu cụ thể**
 
@@ -83,7 +79,6 @@ DevOps cần nhiều kỹ năng, nhưng đừng liệt kê quá nhiều. Hãy ch
 (Không có số liệu, không rõ đóng góp cụ thể)
 
 **5\. Đưa dự án thực tế vào CV**
---------------------------------
 
 Nếu bạn chưa có nhiều kinh nghiệm, hãy thêm các **dự án cá nhân hoặc open-source** để chứng minh năng lực.
 
@@ -99,7 +94,6 @@ Nếu bạn chưa có nhiều kinh nghiệm, hãy thêm các **dự án cá nhâ
 📌 **Mẹo:** Nếu bạn có **GitHub, GitLab hoặc blog kỹ thuật**, hãy đặt link vào CV để nhà tuyển dụng có thể tham khảo.
 
 **6\. Chứng chỉ giúp CV “xịn” hơn**
------------------------------------
 
 Các chứng chỉ **DevOps/Cloud** uy tín sẽ giúp CV của bạn nổi bật hơn so với ứng viên khác.
 
@@ -115,7 +109,6 @@ Các chứng chỉ **DevOps/Cloud** uy tín sẽ giúp CV của bạn nổi bậ
 📌 **Nếu chưa có chứng chỉ?** Hãy tham gia **khóa học online** và làm **lab thực tế**, sau đó cập nhật vào CV.
 
 **7\. Định dạng CV chuyên nghiệp**
-----------------------------------
 
 Hãy đảm bảo CV có bố cục **gọn gàng, dễ đọc, không màu mè**. Một số lưu ý:
 
@@ -130,22 +123,20 @@ Hãy đảm bảo CV có bố cục **gọn gàng, dễ đọc, không màu mè*
 📌 **Mẹo:** Dùng các template CV chuyên nghiệp trên **Canva, Overleaf (LaTeX), hoặc Novoresume** để trình bày đẹp hơn.
 
 **8\. Sai lầm thường gặp khi viết CV DevOps**
----------------------------------------------
 
 * ❌ **Liệt kê quá nhiều công nghệ nhưng không có kinh nghiệm thực tế.**
 
-* 🔹 Giải pháp: Chỉ ghi những công nghệ bạn thực sự thành thạo.
+🔹 Giải pháp: Chỉ ghi những công nghệ bạn thực sự thành thạo.
 
 * ❌ **Viết chung chung, không có số liệu minh chứng.**
 
-* 🔹 Giải pháp: Dùng **dữ liệu cụ thể** như _giảm 30% chi phí cloud, tăng tốc deploy 3 lần_.
+🔹 Giải pháp: Dùng **dữ liệu cụ thể** như _giảm 30% chi phí cloud, tăng tốc deploy 3 lần_.
 
 * ❌ **CV dài dòng, không trọng tâm.**
 
-* 🔹 Giải pháp: Giữ CV trong **1-2 trang**, tập trung vào điểm mạnh nhất.
+🔹 Giải pháp: Giữ CV trong **1-2 trang**, tập trung vào điểm mạnh nhất.
 
 **9\. Tăng cơ hội “pass job xịn” bằng LinkedIn và Portfolio**
--------------------------------------------------------------
 
 Ngoài CV, hãy tối ưu **LinkedIn** để tăng cơ hội được tuyển dụng:
 
@@ -158,7 +149,6 @@ Ngoài CV, hãy tối ưu **LinkedIn** để tăng cơ hội được tuyển d�
 📌 **Mẹo:** Nếu có blog viết về DevOps hoặc các dự án open-source, hãy thêm vào CV để tạo ấn tượng mạnh.
 
 **Kết luận**
-------------
 
 Một CV DevOps chuyên nghiệp cần:
 * **Tóm tắt bản thân rõ ràng, có số liệu cụ thể.**
