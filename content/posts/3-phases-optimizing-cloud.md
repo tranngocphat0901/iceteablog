@@ -3,7 +3,7 @@ title: "3 Giai Đoạn Tối Ưu Hóa Chi Phí Đám Mây Với Terraform"
 date: 2025-02-25T07:00:00Z
 draft: false
 tags: ["Cost", "Optimization", "Cloud"]
-categories: ["Terraform", "Optimization", "Optimization"]
+categories: ["Terraform", "Optimization"]
 author: "Patrick Tran"
 summary: "Khám phá nguyên nhân gây lãng phí điện toán đám mây, tìm giải pháp tối ưu hóa chi tiêu và tìm hiểu cách HashiCorp Terraform tối ưu hóa chi tiêu cho điện toán đám mây ở mọi giai đoạn phát triển của tổ chức bạn."
 cover:
