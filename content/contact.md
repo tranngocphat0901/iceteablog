@@ -23,11 +23,78 @@ date: 2025-02-22T12:00:00Z
         <label for="message">Nội dung:</label>
         <textarea id="message" name="message" required></textarea>
     </div>
-    <!-- Thêm Google reCAPTCHA -->
-    <div class="g-recaptcha" data-sitekey="6Lc4UOgqAAAAAA15BsINUHWaZoUt8Tbu9rFxF4is"></div>
+    <!-- Google reCAPTCHA -->
+    <div class="form-group recaptcha-container">
+        <div class="g-recaptcha" data-sitekey="6Lc4UOgqAAAAAA15BsINUHWaZoUt8Tbu9rFxF4is"></div>
+    </div>
     <button type="submit">Gửi</button>
     <p id="contact-response"></p>
 </form>
+
+<!-- Thêm CSS để căn chỉnh form đúng -->
+<style>
+#contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#contact-response {
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+}
+
+/* Căn chỉnh reCAPTCHA */
+.recaptcha-container {
+    display: flex;
+    justify-content: center;
+}
+</style>
 
 <!-- Thêm script reCAPTCHA -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
